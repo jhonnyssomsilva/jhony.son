@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #393646;
+}
+section h1 {
+  color: #a8686a;
+  font-size: 1.875rem;
+  font-family: "Chakra Petch";
+}
+section h2 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #edb4a1;
+  font-family: "Chakra Petch";
+}
+section p {
+  margin-bottom: 10px;
+  font-family: "Chakra Petch";
+  color: #f4eee0;
+  font-size: 1.15rem;
+}
+.container {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container__conteudo {
+  width: 490px;
+}
