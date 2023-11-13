@@ -36,16 +36,19 @@ body {
   flex-direction: column;
 }
 .main__conteudo p a {
-  text-decoration: none;
+  font-size: 0.9rem;
   color: #edb4a1;
-  padding: 2px;
+  text-decoration: none;
   border: 2px solid #6e6c67;
-  border-radius: 5px;
-  gap: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Chakra Petch";
+  font-weight: 400;
+  padding: 3px;
 }
 .main__conteudo p a:hover {
   background-color: #6e6c67;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .main__title {
   color: #a8686a;
