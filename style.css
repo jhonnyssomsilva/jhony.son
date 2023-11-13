@@ -46,6 +46,7 @@ body {
   font-weight: 400;
   padding: 3px;
 }
+
 .main__conteudo p a:hover {
   background-color: #6e6c67;
   border-radius: 10px;
