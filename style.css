@@ -40,11 +40,56 @@ body {
   font-size: 1.875rem;
   font-family: "Chakra Petch";
 }
+.main__title__cv {
+  color: #a8686a;
+  font-size: 1.875rem;
+  font-family: "Chakra Petch";
+  margin-bottom: 5px;
+}
 .main__conteudo__h2 {
   margin-bottom: 10px;
   font-size: 1.25rem;
   color: #edb4a1;
   font-family: "Chakra Petch";
+}
+.main__conteudo__h3 {
+  font-family: "Chakra Petch";
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  border: 2px solid #6e6c67;
+  border-radius: 5px;
+  padding: 0px 0px 0px 5px;
+}
+.main__conteudo__exp {
+  font-family: "Chakra Petch";
+  font-size: 0.9rem;
+  color: #f4eee0;
+}
+.main__conteudo__exp span {
+  color: #edb4a1;
+}
+.main__conteudo__exp__p {
+  font-family: "Chakra Petch";
+  font-size: 0.7rem;
+  color: #f4eee0;
+}
+.main__conteudo__exp__p1 {
+  font-family: "Chakra Petch";
+  font-size: 1rem;
+  color: #f4eee0;
+  margin-bottom: 50px;
+}
+.main__conteudo__edu h1 {
+  font-family: "Chakra Petch";
+  font-size: 1.3rem;
+  color: #a8686a;
+}
+.main__conteudo__edu__p {
+  font-family: "Chakra Petch";
+  font-size: 1rem;
+  color: #f4eee0;
 }
 section p {
   margin-bottom: 10px;
@@ -84,6 +129,14 @@ section p {
 .main__imagem {
   width: 50%;
 }
+.main__imagem_2 {
+  width: 50%;
+  margin-bottom: 70%;
+}
+.main__imagem_3 {
+  width: 50%;
+  margin-bottom: 30%;
+}
 .rodape {
   font-family: "Chakra Petch";
   font-size: 0.85rem;
@@ -111,7 +164,15 @@ section p {
     width: auto;
   }
   .main__imagem {
-    width: 70%;
+    width: 80%;
+  }
+  .main__imagem_2 {
+    width: 80%;
+    margin: 0;
+  }
+  .main__imagem_3 {
+    width: 80%;
+    margin: 0;
   }
   .main__title {
     font-size: 1.5rem;
@@ -123,6 +184,6 @@ section p {
     font-size: 0.95rem;
   }
   .main__link__subtitulo {
-    font-size: 1.1rem;
+    font-size: 1.1 rem;
   }
 }
