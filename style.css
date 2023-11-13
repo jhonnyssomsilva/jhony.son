@@ -28,9 +28,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 82px;
 }
 .main__conteudo {
-  width: 490px;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +70,7 @@ section p {
   margin-top: 15px;
   color: #f4eee0;
   text-decoration: none;
-  width: 280px;
+  width: 50%;
   border: 2px solid #6e6c67;
   border-radius: 10px;
   text-align: center;
@@ -80,7 +81,9 @@ section p {
 .main__link__links:hover {
   background-color: #6e6c67;
 }
-
+.main__imagem {
+  width: 50%;
+}
 .rodape {
   font-family: "Chakra Petch";
   font-size: 0.85rem;
@@ -91,3 +94,20 @@ section p {
 }
 
 /*responsivo tablet*/
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 8%;
+  }
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .main__conteudo {
+    width: auto;
+  }
+}
