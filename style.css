@@ -142,6 +142,21 @@ section p {
 .main__link__links:hover {
   background-color: #6e6c67;
 }
+.main__link__about a {
+  justify-content: space-between;
+  color: #edb4a1;
+  text-decoration: none;
+  border: 2px solid #474745;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Chakra Petch";
+  font-weight: 500;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.main__link__about a:hover {
+  border: 2px solid #6e6c67;
+}
 .main__imagem {
   width: 50%;
 }
@@ -201,5 +216,13 @@ section p {
   }
   .main__link__subtitulo {
     font-size: 1.1 rem;
+  }
+  .main__link__about {
+    text-align: center;
+  }
+  .main__link__about a {
+    display: inline-block;
+    width: calc(25% - 10px);
+    margin-top: 10px;
   }
 }
