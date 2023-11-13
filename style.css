@@ -110,4 +110,19 @@ section p {
   .main__conteudo {
     width: auto;
   }
+  .main__imagem {
+    width: 70%;
+  }
+  .main__title {
+    font-size: 1.5rem;
+  }
+  .main__conteudo__h2 {
+    font-size: 1rem;
+  }
+  section p {
+    font-size: 0.95rem;
+  }
+  .main__link__subtitulo {
+    font-size: 1.1rem;
+  }
 }
