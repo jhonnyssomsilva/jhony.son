@@ -142,8 +142,11 @@ section p {
 .main__link__links:hover {
   background-color: #6e6c67;
 }
+.main__link__about {
+  display: flex;
+  justify-content: center;
+}
 .main__link__about a {
-  justify-content: space-between;
   color: #edb4a1;
   text-decoration: none;
   border: 2px solid #474745;
@@ -218,11 +221,12 @@ section p {
     font-size: 1.1 rem;
   }
   .main__link__about {
+    display: inline-block;
     text-align: center;
   }
   .main__link__about a {
-    display: inline-block;
-    width: calc(25% - 10px);
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
   }
 }
